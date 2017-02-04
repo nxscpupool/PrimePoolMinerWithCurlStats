@@ -18,7 +18,8 @@ LIBS += \
    -l boost_program_options$(BOOST_LIB_SUFFIX) \
    -l boost_thread$(BOOST_LIB_SUFFIX) \
    -l crypto \
-   -l gmp
+   -l gmp \
+   -lcurl 
 
 LDFLAGS= -Wl,--allow-multiple-definition
 DEBUGFLAGS=
