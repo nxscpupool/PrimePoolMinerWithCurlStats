@@ -1,0 +1,6 @@
+build
+build/
+nexus_cpuminer
+*.o
+nbproject
+nbproject/*
